@@ -1,0 +1,9 @@
+.key {
+	display: inline-block;
+	text-align: center;
+	background-color: crimson;
+	line-height: 50px;
+	width: 60px;
+	border: 2px solid black;
+	margin: 3px;
+}
