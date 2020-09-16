@@ -1,5 +1,23 @@
 [
   {
+      "name": "Default Layout",
+      "layout": [
+        [":", ",", ".", "p", "y", "", "ee", "YOOOO"],
+        ["a", "o", "e", "u", "i", "oeuoeu"],
+        ["'", "def", "j", "k", "x", "j", "S"],
+        ["1", "2", "3", "4", "5", "gg"]
+      ]
+  },
+  {
+      "name": "Alt Layout",
+      "layout": [
+        ["alt1", "alt2", "alt3", "alt4", "alt5", ""],
+        ["a", "o", "e", "u", "i", "hey"],
+        ["'", "alt", "j", "k", "x", ""],
+        ["1", "2", "3", "4", "5", ""]
+      ]
+  },
+  {
       "name": "Ctrl Layout",
       "layout": [
         ["ctrl1", "ctrl2", "ctrl3", "ctrl4", "ctrl5", "tt"],
@@ -9,29 +27,11 @@
       ]
   },
   {
-      "name": "Alt Layout",
-      "layout": [
-        ["alt1", "alt2", "alt3", "alt4", "alt5", ""],
-        ["a", "o", "e", "u", "i", ""],
-        ["'", "alt", "j", "k", "x", ""],
-        ["1", "2", "3", "4", "5", ""]
-      ]
-  },
-  {
       "name": "Shift Layout",
       "layout": [
         ["shift1", "shift2", "shift3", "shift4", "shift5", ""],
         ["a", "o", "e", "u", "i", ""],
         ["'", "shi", "j", "k", "x", ""],
-        ["1", "2", "3", "4", "5", ""]
-      ]
-  },
-  {
-      "name": "Default Layout",
-      "layout": [
-        [":", ",", ".", "p", "y", ""],
-        ["a", "o", "e", "u", "i", ""],
-        ["'", "def", "j", "k", "x", ""],
         ["1", "2", "3", "4", "5", ""]
       ]
   }

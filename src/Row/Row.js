@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { v4 as uuidv4 } from "uuid";
-import "./Key.css";
-import "./Row.css"
+import "Row/Row.css";
+import Key from "Key/Key";
 
 class Row extends Component {
   render() {
@@ -9,11 +9,7 @@ class Row extends Component {
       <div className="Row">
         {this.props.theRow.map(
           (element) =>
-            element.length > 0 && (
-              <span className="key" key={uuidv4()}>
-                {element}
-              </span>
-            )
+            element.length > 0 && <Key text={element} key={uuidv4()} />
         )}
       </div>
     );

@@ -1,16 +1,9 @@
 import React, { Component } from "react";
-import Row from "./Row";
+import Row from "Row/Row";
 import { v4 as uuidv4 } from "uuid";
-import "./KeyboardLayout.css";
+import "KeyboardLayout/KeyboardLayout.css";
 
-class Keyboardlayout extends Component {
-  constructor() {
-    super();
-    this.osef = "osef";
-  }
-
-  loadJson = () => {};
-
+class KeyboardLayout extends Component {
   render() {
     return (
       <div className="KeyboardLayout">
@@ -22,4 +15,4 @@ class Keyboardlayout extends Component {
   }
 }
 
-export default Keyboardlayout;
+export default KeyboardLayout;
