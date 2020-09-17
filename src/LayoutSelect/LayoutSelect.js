@@ -21,7 +21,6 @@ class LayoutSelect extends Component {
 
   render() {
     return (
-      // ({ onChange }) => (
         <form>
           <label>
             <select value={this.state.value} onChange={this.handleChange} >
@@ -33,7 +32,6 @@ class LayoutSelect extends Component {
             </select>
           </label>
         </form>
-      // )
     );
   }
 }

@@ -8,8 +8,13 @@ class Row extends Component {
     return (
       <div className="Row">
         {this.props.theRow.map(
-          (element) =>
-            element.length > 0 && <Key text={element} key={uuidv4()} />
+          (element, index) =>
+            (this.props.theRow[index + 1] === "" && (
+              <Key givenClass="double" text={element} key={uuidv4()} />
+            )) ||
+            (element.length > 0 && (
+              <Key text={element} key={uuidv4()} />
+            ))
         )}
       </div>
     );

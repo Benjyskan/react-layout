@@ -3,7 +3,7 @@ import "Key/Key.css"
 
 function Key (props) {
 	return (
-		<span className="key">
+		<span className={"key " + props.givenClass}>
 			{props.text}
 		</span>
 	);

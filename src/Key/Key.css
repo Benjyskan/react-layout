@@ -7,3 +7,7 @@
 	border: 2px solid black;
 	margin: 3px;
 }
+
+.key.double {
+	width: 128px
+}

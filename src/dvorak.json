@@ -1,0 +1,11 @@
+[
+  {
+      "name": "Default Layout",
+      "layout": [
+        ["Tab", ";", ",", ".", "p", "y", "f", "g", "c", "r", "l", "Del"],
+				["Esc", "a", "o", "e", "u", "i", "d", "h", "t", "n", "s", "Ent"],
+        ["Sft", "'", "q", "j", "k", "x", "b", "m", "w", "v", "z", "Sft/Ent"],
+        ["funLayout", "Ctrl", "Alt", "Sup", "LL", "_", "", "RL", "Sup", "Alt", "Reset", "Ctrl"]
+      ]
+	}
+]

@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import LayoutSelect from "LayoutSelect/LayoutSelect";
 import "KeyboardLayoutApp/KeyboardLayoutApp.css";
 import KeyboardLayout from "KeyboardLayout/KeyboardLayout";
-import data from "keyboardLayouts.json";
+import data from "dvorak.json";
+// import data from "keyboardLayouts.json";
 
 // TODO save currentModIndex to localStorage
 
@@ -19,15 +20,14 @@ class KeyboardLayoutApp extends Component {
   }
 
   saveKeyboardToLocalStorage = (key) => {
-    console.log("- saveKeyboardToLocalStorage: key:", key);
     localStorage.setItem(key, JSON.stringify(this.state.loadedKeyboard));
   };
 
   getKeyboardFromLocalStorage = (keyboardName) => {
     try {
       const items = localStorage.getItem(keyboardName);
-      return JSON.parse(items, null, -1);
-      // return JSON.parse(items);
+      // return JSON.parse(items, null, -1);
+      return JSON.parse(items);
     } catch (err) {
       return null;
     }
